@@ -9,6 +9,7 @@ body{
     background-image: url(images/0background.png);
     background-repeat: repeat;
     /* background-color: #EDCEC1; */
+	overflow-x: hidden;
 }
 .defcolor{
     color: #AB3B61!important;
@@ -39,12 +40,12 @@ nav ul li{
     margin-right: 10px;
     vertical-align: middle;
 }
+.nav-link{
+    color: #AB3B61!important;
+}
 .active{
     color: #EDE2DC!important;
     background-color: #AB3B61!important;
-}
-.nav-link{
-    color: #AB3B61;
 }
 
 /* Section-1 */
@@ -60,7 +61,7 @@ p{
 	max-width: 1300px;
 	margin: auto;
 	padding-left: 50px;
-	/* padding-right: 50px; */
+	padding-right: 0px;
 }
 .row{
 	align-items: center;
@@ -73,13 +74,13 @@ p{
 	flex-basis: 50%;
 	min-width: 300px;
 }
-.col-2 img{
+/* .col-2 img{ */
 	/* margin-top: 0px!important; */
 	/* position: absolute;
 	top: 30px;
 	right: 0px; */
-	max-width: 100%; 
-}
+	/* max-width: 100%;  */
+/* } */
 .col-2 h1{
     color:  #AB3B61;
 	font-size: 40px;
@@ -364,7 +365,15 @@ backface-visibility: hidden;
 }
 /* About us ends here */
 
-
+@media screen and (min-width: 1200px){
+	/* About Us */
+	.phone{
+		display: none;
+	}
+	.col-2.aboutus{
+		margin-top: 200px;
+	}
+}
 @media screen and (max-width: 800px) {
 	/* navbar */
     nav{
@@ -381,7 +390,7 @@ backface-visibility: hidden;
 	.btn{
 		margin: 0;
 	}
-    .col-2 img{
+    .illus1{
 		/* visibility: none; */
 		/* display: block; */
 		display:none;
@@ -405,9 +414,15 @@ backface-visibility: hidden;
 		font-size: 0.8em;
 		padding: 5px;
 	}
+	/* Poppin */
 	.poppin h2{
+		text-align: center;
 		margin-top: 25px;
 		line-height: 50px;
+	}
+	div.plink{
+		margin-left: 35px;
+		margin-bottom: 30px;
 	}
 	.poppin li{
 		line-height: 10px;
@@ -417,6 +432,14 @@ backface-visibility: hidden;
 		margin: auto;
 		padding-left: 25px;
 		padding-right: 25px;
+	}
+	/* About Us */
+	.laptop{
+		display: none;
+	}
+	.col-2.aboutus{
+		margin-top: 30px;
+		text-align: center;
 	}
 
 }
