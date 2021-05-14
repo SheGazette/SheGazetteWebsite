@@ -393,7 +393,23 @@ backface-visibility: hidden;
 .carousel-3d-slide{
 	width:400px !important;
 }
+.next[data-v-05517ad0], .prev[data-v-05517ad0]{
+	color:#EEE2DC;
+}
 /* Carousel ends here */
+
+/* Footer */
+	.container3{
+		background-image: url("images/5.1footer.svg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-top: 250px;
+	}
+	div.container3{
+
+		height: 800px;
+	}
+/* Footer ends here */
 
 
 @media screen and (min-width: 1200px){
