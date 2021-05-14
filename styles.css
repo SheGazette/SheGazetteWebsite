@@ -370,6 +370,7 @@ backface-visibility: hidden;
 	height:unset !important;
 }
 .carousel-3d-slide{
+	border-radius: 10px;
 	box-shadow: 0 6px 6px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
 }
 .prev[data-v-05517ad0]{
@@ -390,7 +391,6 @@ backface-visibility: hidden;
 	font-size:40px;
 }
 .carousel-3d-slide{
-	border-radius: 15px;
 	width:400px !important;
 }
 /* Carousel ends here */
