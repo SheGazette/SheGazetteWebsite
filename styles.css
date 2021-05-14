@@ -8,7 +8,7 @@ body{
     font-family: 'Nunito', sans-serif;
     background-image: url(images/0background.png);
     background-repeat: repeat;
-    /* background-color: #EDCEC1; */
+    background-color: #EDCEC1;
 	overflow-x: hidden;
 }
 .defcolor{
@@ -365,37 +365,68 @@ backface-visibility: hidden;
 }
 /* About us ends here */
 
+/* Carousel */
+.carousel-3d-slide{
+	height:unset !important;
+}
+.carousel-3d-slide{
+	box-shadow: 0 6px 6px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+.prev[data-v-05517ad0]{
+	left: 244px !important;
+	top: 0px  !important;
+}
+.next[data-v-05517ad0]{
+	right: 225px !important;
+	top: 0px  !important;
+}
+.Next slide span{
+	font-size:20px;
+}
+.carousel-3d-container .next span{
+	font-size:40px;
+}
+.carousel-3d-container .prev  span{
+	font-size:40px;
+}
+.carousel-3d-slide{
+	border-radius: 15px;
+	width:400px !important;
+}
+/* Carousel ends here */
+
+
 @media screen and (min-width: 1200px){
-	/* About Us */
-	.phone{
-		display: none;
-	}
-	.col-2.aboutus{
-		margin-top: 200px;
-	}
+/* About Us */
+.phone{
+	display: none;
+}
+.col-2.aboutus{
+	margin-top: 200px;
+}
 }
 @media screen and (max-width: 800px) {
-	/* navbar */
-    nav{
-        text-align: left;
-    }
-    .nav-link{
-        padding-left: 10px!important;
-    }
-    
-	/* Section-1 */
-	.container0{
-		height: 400px;
-	}
-	.btn{
-		margin: 0;
-	}
-    .illus1{
-		/* visibility: none; */
-		/* display: block; */
-		display:none;
-        /* margin: 480px 0; */
-    }
+/* navbar */
+nav{
+	text-align: left;
+}
+.nav-link{
+	padding-left: 10px!important;
+}
+
+/* Section-1 */
+.container0{
+	height: 400px;
+}
+.btn{
+	margin: 0;
+}
+.illus1{
+	/* visibility: none; */
+	/* display: block; */
+	display:none;
+	/* margin: 480px 0; */
+}
 
 
 	/* Calendar */
