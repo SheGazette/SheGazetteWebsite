@@ -14,6 +14,7 @@ body{
 .defcolor{
     color: #AB3B61!important;
 }
+/*  Defaults end here */
 
 /* navbar */
 .navbar{
@@ -47,6 +48,7 @@ nav ul li{
     color: #EDE2DC!important;
     background-color: #AB3B61!important;
 }
+/* navbar ends here */
 
 /* Section-1 */
 a{
@@ -98,6 +100,7 @@ p{
 .btn:hover{
 	background: #5D0E29;
 }
+/* Section-1 ends here */
 
 /* Calendar */
 /* * {
@@ -350,6 +353,7 @@ backface-visibility: hidden;
 .poppin a:hover{
 	color: #5D0E29;
 }
+/* poppin ends here */
 
 /* Common Container */
 /* .col-3 {
@@ -411,47 +415,53 @@ backface-visibility: hidden;
 	}
 /* Footer ends here */
 
-
+/* Media Queries */
+/* Large */
 @media screen and (min-width: 1200px){
-/* About Us */
-.phone{
-	display: none;
+	/* About Us */
+	.phone{
+		display: none;
+	}
+	.col-2.aboutus{
+		margin-top: 200px;
+	}
+	/* About Us ends here */
 }
-.col-2.aboutus{
-	margin-top: 200px;
-}
-}
+
+/* Medium */
 @media screen and (max-width: 800px) {
-/* navbar */
-nav{
-	text-align: left;
-}
-.nav-link{
-	padding-left: 10px!important;
-}
+	/* navbar */
+	nav{
+		text-align: left;
+	}
+	.nav-link{
+		padding-left: 10px!important;
+	}
+	/* navbar ends here */
 
-/* Section-1 */
-.container0{
-	height: 400px;
-}
-.btn{
-	margin: 0;
-}
-.illus1{
-	/* visibility: none; */
-	/* display: block; */
-	display:none;
-	/* margin: 480px 0; */
-}
-
+	/* Section-1 */
+	.container0{
+		height: 400px;
+	}
+	.btn{
+		margin: 0;
+	}
+	.illus1{
+		/* visibility: none; */
+		/* display: block; */
+		display:none;
+		/* margin: 480px 0; */
+	}
+	/* Section-1 ends here */
 
 	/* Calendar */
 	.col-3 {
 		flex-basis: 100%;
 	}
-	
+	/* Calendar ends here */
 }
 
+/* Small */
 @media screen and (max-width: 500px) {
 	/* Calendar */
 	.calendar {
@@ -461,6 +471,8 @@ nav{
 		font-size: 0.8em;
 		padding: 5px;
 	}
+	/* Calendar ends here */
+
 	/* Poppin */
 	.poppin h2{
 		text-align: center;
@@ -474,12 +486,17 @@ nav{
 	.poppin li{
 		line-height: 10px;
 	}
+	/* poppin ends here */
+
+	/* Common container */
 	.container1 {
 		max-width: 1300px;
 		margin: auto;
 		padding-left: 25px;
 		padding-right: 25px;
 	}
+	/* Common container ends here */
+
 	/* About Us */
 	.laptop{
 		display: none;
@@ -488,5 +505,6 @@ nav{
 		margin-top: 30px;
 		text-align: center;
 	}
+	/* About us ends here */
 
 }
