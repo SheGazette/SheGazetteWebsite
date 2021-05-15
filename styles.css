@@ -334,24 +334,47 @@ backface-visibility: hidden;
 /* Calendar ends here */
 
 /* poppin */
-.poppin h2{
-	color: #AB3B61;
+.poppin h2 {
 	font-weight: 700;
 	line-height: 80px;
+	color: #123D6A;
+	/* text-decoration-line: underline ;
+	text-decoration-color:#123D6A ; */
+	padding-bottom:1 px;
+    border-bottom-style: solid;
 }
-.poppin li{
-	color: #AB3B61;
+/* .poppin li{
+	 color: #123d6a; 
 	margin: 25px auto;
 	line-height: 25px;
-	list-style: square;
+	/* list-style: square; */
 	/* list-style-type: url("images/1.1home.svg"); */
-	list-style: outside;
+	/* list-style: outside; */
+/* }  */
+.btn3{
+		background-color:  #123D6A !important;
+		color: #EDE2DC !important;
+		padding: 20px;
+		margin: 20px 0;
+		border-radius: 30px;
 }
-.poppin a{
+.btn3 a{
+	color: #EDE2DC;
+    font-size:x-large;
+	font-weight: bold;
+}
+.btn3 p{
+	color: #EDE2DC;
+	margin:0;
+	font-weight:200;
+	font-size: small;
+}
+/* .poppin a{
 	color: #123D6A;
-}
-.poppin a:hover{
-	color: #5D0E29;
+} */
+.btn3:hover{
+	background-color: #AB3B61 !important;
+	color: #EDE2DC;
 }
 /* poppin ends here */
 
