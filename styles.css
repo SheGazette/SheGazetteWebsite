@@ -562,6 +562,16 @@ div.container3{
 	}
 	/* Common container ends here */
 
+	/* About Us */
+	.laptop{
+		display: none;
+	}
+	.col-2.aboutus{
+		margin-top: 30px;
+		text-align: center;
+	}
+	/* About us ends here */
+
 	/* Carousel starts here */
 	div.carousel{
 		align-items: center;
@@ -572,13 +582,18 @@ div.container3{
 	}
 	/* Carousel ends here */
 
-	/* About Us */
-	.laptop{
-		display: none;
+	/* Footer starts here */
+	footer{
+		background-image: url("images/5.1.2footerphone.svg");
+		background-size: 500px;
+		/* height: 900px; */
 	}
-	.col-2.aboutus{
-		margin-top: 30px;
-		text-align: center;
+	.footer-text{
+		padding-top: 140px;
 	}
-	/* About us ends here */
+	.btn2{
+		margin: 15px;
+	}
+	/* Footer ends here */
+
 }
