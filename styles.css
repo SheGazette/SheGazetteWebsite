@@ -42,18 +42,19 @@ nav ul li{
     vertical-align: middle;
 }
 .nav-link{
+	font-weight: bolder;
     color: #AB3B61!important;
 }
 .nav-link:hover{
-    color: #EEE2DC!important;
+    color: #6D263D!important;
 }
 .active{
     color: #EEE2DC!important;
     background-color: #AB3B61!important;
 }
 .active:hover{
-	color: #AB3B61;
-	background-color: #EEE2DC!important;
+	color: #EEE2DC!important;
+	background-color: #6D263D!important;
 }
 .rounded-pill{
 	border-radius: 17px !important;
@@ -446,7 +447,7 @@ div.container3{
 /* Footer ends here */
 
 /* Media Queries */
-/* Large */
+/* Large (Laptop)*/
 @media screen and (min-width: 1200px){
 	/* About Us */
 	.phone{
@@ -458,7 +459,32 @@ div.container3{
 	/* About Us ends here */
 }
 
-/* Medium */
+/* Large (iPad Pro) */
+@media screen and (min-width: 1000px){
+	/* Section-1 */
+	.illus1{
+		width: 480px;
+	}
+	/* Whats poppin */
+	.btn3 a {
+		font-size: large;
+	}
+
+	/* About Us */
+	.container1{
+		margin-top: 150px;
+	}
+	.col-2.aboutus{
+		margin-top: 120px;
+		padding-left: 25px;
+	}
+	.phone{
+		display: none;
+	}
+	/* About Us ends here */
+}
+
+/* Medium(iPad) */
 @media screen and (max-width: 800px) {
 	/* navbar */
 	nav{
@@ -479,7 +505,7 @@ div.container3{
 	.illus1{
 		/* visibility: none; */
 		/* display: block; */
-		display:none;
+		display: none;
 		/* margin: 480px 0; */
 	}
 	/* Section-1 ends here */
@@ -489,6 +515,15 @@ div.container3{
 		flex-basis: 100%;
 	}
 	/* Calendar ends here */
+
+	/* About Us */
+	.container1{
+		margin: 100px auto;
+	}
+	.laptop{
+		display: none;
+	}
+	/* About us ends here */
 }
 
 /* Small */
@@ -509,10 +544,10 @@ div.container3{
 		margin-top: 25px;
 		line-height: 50px;
 	}
-	div.plink{
+	/* div.plink{
 		margin-left: 35px;
 		margin-bottom: 30px;
-	}
+	} */
 	.poppin li{
 		line-height: 10px;
 	}
@@ -526,6 +561,16 @@ div.container3{
 		padding-right: 25px;
 	}
 	/* Common container ends here */
+
+	/* Carousel starts here */
+	div.carousel{
+		align-items: center;
+		margin: 100px 28px;
+	}
+	.carousel-3d-slide{
+		width:250px !important;
+	}
+	/* Carousel ends here */
 
 	/* About Us */
 	.laptop{
