@@ -448,7 +448,7 @@ div.container3{
 
 /* Media Queries */
 /* Large (Laptop)*/
-@media screen and (min-width: 1200px){
+@media (min-width:1200px){
 	/* About Us */
 	.phone{
 		display: none;
@@ -460,7 +460,7 @@ div.container3{
 }
 
 /* Large (iPad Pro) */
-@media screen and (min-width: 1000px){
+@media (max-width: 1024px) and (min-width: 769px){
 	/* Section-1 */
 	.illus1{
 		width: 480px;
@@ -478,9 +478,6 @@ div.container3{
 		margin-top: 120px;
 		padding-left: 25px;
 	}
-
-
-	
 	.phone{
 		display: none;
 	}
@@ -488,7 +485,7 @@ div.container3{
 }
 
 /* Medium(iPad) */
-@media screen and (max-width: 800px) {
+@media (max-width: 768px) {
 	/* navbar */
 	nav{
 		text-align: left;
