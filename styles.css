@@ -450,6 +450,10 @@ div.container3{
 /* Large (Laptop)*/
 @media (min-width:1200px){
 	/* About Us */
+	img.laptop{
+		padding-top: 150px;
+		padding-right: 50px;
+	}
 	.phone{
 		display: none;
 	}
