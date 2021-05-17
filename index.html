@@ -380,48 +380,53 @@
     </footer>
     <!-- Footer ends here -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+
+    
+    <!-- JS starts here -->
+
+    <!-- Calendar JS -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script> -->
     <!-- Optional JavaScript; choose one of the two! -->
     <script>
-        var app = {
-            settings: {
-                container: $('.calendar'),
-                calendar: $('.front'),
-                days: $('.weeks span'),
-                form: $('.back'),
-                input: $('.back input'),
-                buttons: $('.back button')
-            },
+    // Calendar JS starts here
+        // var app = {
+        //     settings: {
+        //         container: $('.calendar'),
+        //         calendar: $('.front'),
+        //         days: $('.weeks span'),
+        //         form: $('.back'),
+        //         input: $('.back input'),
+        //         buttons: $('.back button')
+        //     },
 
-            init: function () {
-                instance = this;
-                settings = this.settings;
-                this.bindUIActions();
-            },
+        //     init: function () {
+        //         instance = this;
+        //         settings = this.settings;
+        //         this.bindUIActions();
+        //     },
 
-            swap: function (currentSide, desiredSide) {
-                settings.container.toggleClass('flip');
+        //     swap: function (currentSide, desiredSide) {
+        //         settings.container.toggleClass('flip');
 
-                currentSide.fadeOut(900);
-                currentSide.hide();
+        //         currentSide.fadeOut(900);
+        //         currentSide.hide();
 
-                desiredSide.show();
-            },
+        //         desiredSide.show();
+        //     },
 
-            bindUIActions: function () {
-                settings.days.on('click', function () {
-                    instance.swap(settings.calendar, settings.form);
-                    settings.input.focus();
-                });
+        //     bindUIActions: function () {
+        //         settings.days.on('click', function () {
+        //             instance.swap(settings.calendar, settings.form);
+        //             settings.input.focus();
+        //         });
 
-                settings.buttons.on('click', function () {
-                    instance.swap(settings.form, settings.calendar);
-                });
-            }
-        }
-
-        app.init();
-
+        //         settings.buttons.on('click', function () {
+        //             instance.swap(settings.form, settings.calendar);
+        //         });
+        //     }
+        // }
+        // app.init();
+    // Calendar JS ends here
         new Vue({
             el: '#example',
 
