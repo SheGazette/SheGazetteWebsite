@@ -10,6 +10,53 @@ body{
     background-color: #EDCEC1;
 	overflow-x: hidden;
 }
+.defcolor{
+    color: #AB3B61!important;
+}
+/* navbar */
+.navbar{
+    background-color: rgba(0,0,0,0.0)!important;
+	display: flex;
+	align-items: center;
+	padding: 0px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul{
+    justify-content: flex-end!important;
+	display: inline-block;
+	list-style-type: none;
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+.icon{
+    padding-bottom: 4px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.nav-link{
+	font-weight: bolder;
+    color: #AB3B61!important;
+}
+.nav-link:hover{
+    color: #6D263D!important;
+}
+.active{
+    color: #EEE2DC!important;
+    background-color: #AB3B61!important;
+}
+.active:hover{
+	color: #EEE2DC!important;
+	background-color: #6D263D!important;
+}
+.rounded-pill{
+	border-radius: 17px !important;
+}
+/* navbar ends here */
 
 /*Meet our team title*/
 .title{
@@ -37,7 +84,7 @@ body{
 
 /*Meet our team image*/
 
-div.team-image img{
+div.team-image img.laptop{
     width:1200px;
     margin-top: 0px;
     padding:30px 30px 0 50px;
@@ -52,6 +99,33 @@ div.team-image img{
         display: none;
     }
 }
+
+/* Large (iPad Pro) */
+@media (max-width: 1024px) and (min-width: 769px){
+
+    div.team-image img.laptop{
+        width:900px;
+        margin-top: 0px;
+        padding:30px 30px 0 50px;
+    }
+    .phone{
+        display: none;
+    }
+}
+
+/* Medium(iPad) */
+@media (max-width: 768px) {
+   
+    div.team-image img.phone{
+        
+        width:700px;
+        margin-top: 0px;
+        padding:30px 30px 0 50px;
+    
+    }
+
+}
+
 /*phone*/
 @media (max-width: 500px) {
     .laptop{

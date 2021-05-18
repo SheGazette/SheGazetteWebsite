@@ -477,9 +477,12 @@ div.container3{
 	/* About Us */
 	img.laptop{
 		width: 500px;
+		padding-right:50px;
+		padding-top:70px;
 	}
 	.container1{
-		margin-top: 150px;
+		margin-top: 80px;
+		margin-bottom: 150px;
 	}
 	.col-2.aboutus{
 		margin-top: 120px;
