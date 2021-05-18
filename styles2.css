@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    background-image: url(images/0background.png);
+    background-repeat: repeat;
+    background-color: #EDCEC1;
+	overflow-x: hidden;
+}
+
+/*Meet our team title*/
+.title{
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    line-height: 70px;
+    color:#ab3d61;
+    font-weight:bolder;
+    font-family: 'Nunito', sans-serif !important;
+
+}
+.title::after{
+    content: '';
+    background: #ab3d61;
+    width: 200px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/*Meet our team title*/
+
+/*Meet our team image*/
+
+div.team-image img{
+    width:1200px;
+    margin-top: 0px;
+    padding:30px 30px 0 50px;
+    /* padding-right: 30px; */
+}
+/*Meet our team image*/
+
+
+/*laptop*/
+@media (min-width:1199px){
+    .phone{
+        display: none;
+    }
+}
+/*phone*/
+@media (max-width: 500px) {
+    .laptop{
+        display: none;
+    }
+    div.team-image img.phone{
+        width: 350px;   
+    }
+}
