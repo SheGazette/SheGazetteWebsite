@@ -475,6 +475,9 @@ div.container3{
 	}
 
 	/* About Us */
+	img.laptop{
+		width: 500px;
+	}
 	.container1{
 		margin-top: 150px;
 	}
