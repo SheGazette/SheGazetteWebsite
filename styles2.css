@@ -210,7 +210,14 @@ div.container3{
 
 /* Medium(iPad) */
 @media (max-width: 768px) {
-   
+    /* navbar */
+	nav{
+		text-align: left;
+	}
+	.nav-link{
+		padding-left: 10px!important;
+	}
+	/* navbar ends here */
     div.team-image img.phone{
         
         width:700px;
@@ -227,7 +234,7 @@ div.container3{
         display: none;
     }
     div.team-image img.phone{
-        width: 350px;   
+        width: 380px;   
     }
     .contribution{
         padding-top: 0px;
