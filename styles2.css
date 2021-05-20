@@ -92,6 +92,58 @@ div.team-image img.laptop{
 }
 /*Meet our team image*/
 
+/* Contribute */
+.contribution{
+	padding-top: 80px;
+    margin: 20px;
+}
+.rowT3{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.contribution .col-3{
+    background-color: #123c69;
+	text-align: center;
+	padding: 40px 40px;
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+	cursor: pointer;
+	transition: transform 0.5s;
+    border-radius: 15px;
+}
+.contribution .col-3:hover{
+	transform: translateY(-10px);
+}
+.col-3 p{
+	font-size: 12px;
+	margin: 12px 0;
+	color: #EEE2DC;
+}
+.contribution .col-3 h3{
+	font-weight: 600;
+	color: #EEE2DC;
+    margin: 12px;
+	/* font-size: 16px; */
+}
+div.joinbtn{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+	/* display: inline-block; */
+	background:  #AB3B61;
+	color: #EDE2DC;
+	padding: 10px 25px;
+	margin: 30px 0;
+	border-radius: 30px;
+}
+.btn:hover{
+	background: #5D0E29;
+	color:#EEE2DC;
+}
+
+/* Contribute ends here */
 
 /*laptop*/
 @media (min-width:1199px){
@@ -127,11 +179,22 @@ div.team-image img.laptop{
 }
 
 /*phone*/
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     .laptop{
         display: none;
     }
     div.team-image img.phone{
         width: 350px;   
+    }
+    .contribution{
+        padding-top: 0px;
+        margin: 40px;
+    }
+    .contribution .col-3{
+        flex-basis: 100%;
+        margin: 25px;
+    }
+    .btn{
+        margin: 0px;
     }
 }
