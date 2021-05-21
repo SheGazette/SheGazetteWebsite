@@ -224,13 +224,13 @@ height: 100%;
 	top: -4px;
 }
 /* Back - Event form */
-.back {
+/* .back {
 	height: 100%;
 	transform: rotateY(180deg);
 }
-/* .back .dn p{
+.back .dn p{
 color: #123D6A;
-} */
+}
 .back p{
 	color: #EEE2DC;
 }
@@ -302,9 +302,9 @@ color: #123D6A;
 	outline: none;
 }
 /* Flip animation */
-.flip {
+/* .flip {
 	transform: rotateY(180deg);
-}
+} */ */
 .front, .back {
 	backface-visibility: hidden;
 }
