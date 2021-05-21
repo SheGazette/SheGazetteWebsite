@@ -191,14 +191,16 @@ div.container3{
 
 /*laptop*/
 @media (min-width:1199px){
+    /* Meet our Team */
     .phone{
         display: none;
     }
+    /* Meet our Team ends here */
 }
 
 /* Large (iPad Pro) */
 @media (max-width: 1024px) and (min-width: 769px){
-
+    /* Meet our Team */
     div.team-image img.laptop{
         width:900px;
         margin-top: 0px;
@@ -207,10 +209,24 @@ div.container3{
     .phone{
         display: none;
     }
+    /* Meet our Team ends here*/
+    /* Contribution */
+    .contribution{
+        margin: auto;
+        width: 800px;
+    }
+    .contribution .row{
+        padding: 100px;
+    }
+    .contribution .col-3{
+        flex-basis: 100%;
+        margin: 25px;
+    }
+    /* Contribution ends here */
 }
 
 /* Medium(iPad) */
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width:600px){
     /* navbar */
 	nav{
 		text-align: left;
@@ -219,24 +235,55 @@ div.container3{
 		padding-left: 10px!important;
 	}
 	/* navbar ends here */
-    div.team-image img.phone{
-        
+    /* Meet our Team */
+    div.team-image img.laptop{
         width:700px;
         margin-top: 0px;
         padding:30px 30px 0 50px;
-    
     }
-
+    .phone{
+        display: none;
+    }
+    /* Meet our Team ends here*/
+    /* Contribution */
+    .contribution{
+        margin: auto;
+        width: 550px;
+    }
+    .contribution .row{
+        padding: 100px;
+    }
+    .contribution .col-3{
+        flex-basis: 100%;
+        margin: 25px;
+    }
+    /* Contribution ends here */
 }
 
 /*phone*/
-@media (max-width: 700px) {
+@media (max-width: 600px) {
+    /* navbar */
+	nav{
+		text-align: left;
+	}
+	.nav-link{
+		padding-left: 10px!important;
+	}
+	/* navbar ends here */
+    /* Meet our Team */
     .laptop{
         display: none;
     }
-    div.team-image img.phone{
-        width: 380px;   
+    div.team-image{
+        display: flex;
+        justify-content: center; 
     }
+    div.team-image img.phone{
+        padding: 10px;
+        width: 330px;  
+    }
+    /* Meet our Team ends here*/
+    /* Contribution */
     .contribution{
         padding-top: 0px;
         margin: 40px;
@@ -248,6 +295,7 @@ div.container3{
     .btn{
         margin: 0px;
     }
+    /* Contribution ends here*/
     /* Footer starts here */
     footer{
         background-image: none;
@@ -266,5 +314,4 @@ div.container3{
         display: none;
     }
     /* Footer ends here */
-
 }
