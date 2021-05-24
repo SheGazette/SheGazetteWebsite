@@ -157,6 +157,8 @@ div > .modal-content {
     cursor: pointer;
 }
 .modal-header .close {
+    color: #AB3B61;
+    opacity: unset;
     padding: 1rem;
     margin: -1rem -1rem -1rem auto;
 }
@@ -234,8 +236,9 @@ button {
     flex-direction: column;
     width: 100%; */
     pointer-events: auto;
-    /* background-color: #fff;
-    background-clip: padding-box;
+    background-color: #F4E4DE;
+    color: #AB3B61;
+    /* background-clip: padding-box;
     border: 1px solid rgba(0,0,0,.2);
     border-radius: .3rem;
     outline: 0; */
@@ -246,6 +249,23 @@ button {
     margin: .5rem;
     pointer-events: none;
 } */
+div.modal-content{
+    width: 800px;
+    border-radius: 20px;
+}
+div.modal-header.text-center{
+    color: #AB3B61;
+    font-size: large!important;
+    font-weight: bolder!important;
+}
+.form-control{
+    background-color: #ab3d61!important;
+    opacity: 30%;
+    border-radius: 20px;
+}
+div.md-form.mb-5{
+    margin: 0 0 20px 0px!important;
+}
 /*contact us ends here*/
 
 
