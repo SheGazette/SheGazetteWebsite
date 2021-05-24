@@ -145,6 +145,110 @@ div.joinbtn{
 
 /* Contribute ends here */
 
+/*contact us*/
+/* #modalContactForm {
+	background-color: rgba(0,0,0,0.4)
+}
+
+div > .modal-content {
+	border-radius: 10px;
+} */
+.close:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.modal-header .close {
+    padding: 1rem;
+    margin: -1rem -1rem -1rem auto;
+}
+button.close {
+    /* padding: 0; */
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+}
+/* [type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+} */
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    /* margin: 0; */
+    font-family: inherit;
+    /* font-size: inherit; */
+    /* line-height: inherit; */
+}
+button {
+    border-radius: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+button {
+    /* appearance: auto; */
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    /* color: -internal-light-dark(black, white); */
+    letter-spacing: normal;
+    word-spacing: normal;
+    /* text-transform: none; */
+    text-indent: 0px;
+    /* text-shadow: none; */
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    /* cursor: default;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial; */
+}
+/* .text-center {
+    text-align: center!important;
+} */
+.modal-content {
+    /* position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical; */
+    -webkit-box-direction: normal;
+    /* -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%; */
+    pointer-events: auto;
+    /* background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0; */
+}
+/* .modal-dialog {
+    position: relative;
+    width: auto;
+    margin: .5rem;
+    pointer-events: none;
+} */
+/*contact us ends here*/
+
+
 /* Footer */
 footer{
 	background-image: url("images/5.1footer.svg");
@@ -190,7 +294,7 @@ div.container3{
 /* Footer ends here */
 
 /*laptop*/
-@media (min-width:1199px){
+@media (min-width:1025px){
     /* Meet our Team */
     .phone{
         display: none;

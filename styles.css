@@ -553,7 +553,7 @@ button {
 
 /* Media Queries */
 /* Large (Laptop)*/
-@media (min-width:1200px){
+@media (min-width:1025px){
 	/* About Us */
 	img.laptop{
 		padding-top: 150px;
