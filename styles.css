@@ -446,6 +446,17 @@ div.container3{
 }
 /* Footer ends here */
 
+/*contact us*/
+#modalContactForm {
+	background-color: rgba(0,0,0,0.4)
+  }
+  
+  div > .modal-content {
+	border-radius: 10px;
+  }
+  /*contact us ends here*/
+
+
 /* Media Queries */
 /* Large (Laptop)*/
 @media (min-width:1200px){
