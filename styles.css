@@ -82,7 +82,7 @@ p{
 	flex-wrap: wrap;
 	justify-content: space-around; */
 }
-.col-2{
+.col-T2{
     /* margin-top: 200px; */
 	flex-basis: 50%;
 	min-width: 300px;
@@ -94,7 +94,7 @@ p{
 	right: 0px; */
 	/* max-width: 100%;  */
 /* } */
-.col-2 h1{
+.col-T2 h1{
     color:  #AB3B61;
 	font-size: 40px;
     font-weight: 700;
@@ -458,6 +458,8 @@ div > .modal-content {
     cursor: pointer;
 }
 .modal-header .close {
+    color: #AB3B61;
+    opacity: unset;
     padding: 1rem;
     margin: -1rem -1rem -1rem auto;
 }
@@ -535,8 +537,9 @@ button {
     flex-direction: column;
     width: 100%; */
     pointer-events: auto;
-    /* background-color: #fff;
-    background-clip: padding-box;
+    background-color: #F4E4DE;
+    color: #AB3B61;
+    /* background-clip: padding-box;
     border: 1px solid rgba(0,0,0,.2);
     border-radius: .3rem;
     outline: 0; */
@@ -547,6 +550,62 @@ button {
     margin: .5rem;
     pointer-events: none;
 } */
+div.modal-content{
+    width: 800px;
+    border-radius: 20px;
+}
+div.modal-header.text-center{
+    color: #AB3B61;
+}
+h3.modal-title{
+    align-items: center;
+    font-size: 800;
+    font-weight: bold!important;
+}
+.form-control{
+    background-color: #ab3d61!important;
+    opacity: 30%;
+    border-radius: 20px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white!important;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:white!important;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white!important;
+  }
+div.md-form.mb-5{
+    margin: 0 0 20px 0px!important;
+}
+.container4{
+	align-items: center;
+	/* display: flex; */
+	/* flex-wrap: wrap; */
+	height: 100%;
+	justify-content: center;
+	/* margin: 200px auto; */
+	max-width: 1300px;
+	padding-left: 25px;
+	padding-right: 25px;
+	width: 100%;
+}
+.rowT2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+} 
+.col-2{
+    display: flex;
+    flex-basis: 50%;
+}
+.w-100{
+	font-size: 50px!important;
+}
 /*contact us ends here*/
 
 
@@ -562,7 +621,7 @@ button {
 	.phone{
 		display: none;
 	}
-	.col-2.aboutus{
+	.col-T2.aboutus{
 		margin-top: 200px;
 	}
 	/* About Us ends here */
@@ -589,7 +648,7 @@ button {
 		margin-top: 80px;
 		margin-bottom: 150px;
 	}
-	.col-2.aboutus{
+	.col-T2.aboutus{
 		margin-top: 120px;
 		padding-left: 25px;
 	}
@@ -681,7 +740,7 @@ button {
 	.laptop{
 		display: none;
 	}
-	.col-2.aboutus{
+	.col-T2.aboutus{
 		margin-top: 30px;
 		text-align: center;
 	}

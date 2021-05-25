@@ -302,6 +302,9 @@ div.md-form.mb-5{
     display: flex;
     flex-basis: 50%;
 }
+.w-100{
+	font-size: 50px!important;
+}
 /*contact us ends here*/
 
 
