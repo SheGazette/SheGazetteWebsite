@@ -255,14 +255,29 @@ div.modal-content{
 }
 div.modal-header.text-center{
     color: #AB3B61;
-    font-size: large!important;
-    font-weight: bolder!important;
+}
+h3.modal-title{
+    align-items: center;
+    font-size: 800;
+    font-weight: bold!important;
 }
 .form-control{
     background-color: #ab3d61!important;
     opacity: 30%;
     border-radius: 20px;
 }
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white!important;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:white!important;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white!important;
+  }
 div.md-form.mb-5{
     margin: 0 0 20px 0px!important;
 }
