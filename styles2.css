@@ -266,6 +266,27 @@ div.modal-header.text-center{
 div.md-form.mb-5{
     margin: 0 0 20px 0px!important;
 }
+.container4{
+	align-items: center;
+	/* display: flex; */
+	/* flex-wrap: wrap; */
+	height: 100%;
+	justify-content: center;
+	/* margin: 200px auto; */
+	max-width: 1300px;
+	padding-left: 25px;
+	padding-right: 25px;
+	width: 100%;
+}
+.rowT2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+} 
+.col-2{
+    display: flex;
+    flex-basis: 50%;
+}
 /*contact us ends here*/
 
 
