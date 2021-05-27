@@ -464,7 +464,8 @@ div > .modal-content {
     margin: -1rem -1rem -1rem auto;
 }
 button.close {
-    /* padding: 0; */
+	font-size: 40px;
+    padding: 0 30px!important;
     background-color: transparent;
     border: 0;
     -webkit-appearance: none;
@@ -551,7 +552,7 @@ button {
     pointer-events: none;
 } */
 div.modal-content{
-    width: 800px;
+    width: 850px;
     border-radius: 20px;
 }
 div.modal-header.text-center{
@@ -604,10 +605,18 @@ div.md-form.mb-5{
     flex-basis: 50%;
 }
 .w-100{
-	font-size: 50px!important;
+	font-size: 35px!important;
 }
 .robot{
     padding: 20px;
+}
+
+btn.btn-unique.contactUs-btn{
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+.contactUs-p{
+	padding: 0 20px;
 }
 /*contact us ends here*/
 
@@ -659,6 +668,15 @@ div.md-form.mb-5{
 		display: none;
 	}
 	/* About Us ends here */
+
+	/* Contact us */
+	.col-2 img{
+		display: none;
+	}
+	.col-2{
+		flex-basis: 100%;
+	}
+	/* Contact us ends here */
 }
 
 /* Medium(iPad) */
