@@ -439,64 +439,71 @@
     
     <!-- contact us -->
 
-    <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header text-center">
-                    <h3 class="modal-title w-100">Contact Us</h3>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
+    <form name ="conatct" method="POST" data-netlify="true">
+        <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <h3 class="modal-title w-100">Contact Us</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
 
-                <div class="container4">
-                    <div class="rowT2">
-                        <div class="col-2">
-                            <!-- <div class="modal-body mx-3"> -->
-                                <div>
-                                    <img src="images/z3-1.1contactUs.svg" width="400px">
-                                </div>
-                            <!-- </div> -->
-                        </div>
+                    <div class="container4">
+                        <div class="rowT2">
+                            <div class="col-2">
+                                <!-- <div class="modal-body mx-3"> -->
+                                    <div>
+                                        <img src="images/z3-1.1contactUs.svg" width="400px">
+                                    </div>
+                                <!-- </div> -->
+                            </div>
 
-                        <div class="col-2">
-                            <div class="modal-body mx-3">
-                                <div class="md-form mb-5">
-                                    <i class="fas fa-user prefix grey-text"></i>
-                                    <input type="text" id="form34" class="form-control validate" placeholder="Your Name">
-                                    <label data-error="wrong" data-success="right" for="form34"></label>
-                                </div>
+                            <div class="col-2">
+                                <div class="modal-body mx-3">
+                                    <div class="md-form mb-5">
+                                        <label data-error="wrong" data-success="right" for="name"></label>
+                                        <i class="fas fa-user prefix grey-text"></i>
+                                        <input type="text" id="name" class="form-control validate" placeholder="Your Name">  
+                                    </div>
 
-                                <div class="md-form mb-5">
-                                    <i class="fas fa-envelope prefix grey-text"></i>
-                                    <input type="email" id="form29" class="form-control validate" placeholder="Your Email">
-                                    <label data-error="wrong" data-success="right" for="form29"></label>
-                                </div>
+                                    <div class="md-form mb-5">
+                                        <i class="fas fa-envelope prefix grey-text"></i>
+                                        <label data-error="wrong" data-success="right" for="email"></label>
+                                        <input type="email" id="email" class="form-control validate" placeholder="Your Email">  
+                                    </div>
 
-                                <!-- <div class="md-form mb-5">
-                                    <i class="fas fa-tag prefix grey-text"></i>
-                                    <input type="text" id="form32" class="form-control validate" placeholder="Subject">
-                                    <label data-error="wrong" data-success="right" for="form32"></label>
-                                </div> -->
+                                    <!-- <div class="md-form mb-5">
+                                        <i class="fas fa-tag prefix grey-text"></i>
+                                        <input type="text" id="form32" class="form-control validate" placeholder="Subject">
+                                        <label data-error="wrong" data-success="right" for="form32"></label>
+                                    </div> -->
 
-                                <div class="md-form">
-                                    <i class="fas fa-pencil prefix grey-text"></i>
-                                    <textarea type="text" id="form8" class="md-textarea form-control" rows="4"
-                                        placeholder="Your message"></textarea>
-                                    <label data-error="wrong" data-success="right" for="form8"></label>
+                                    <div class="md-form">
+                                        <i class="fas fa-pencil prefix grey-text"></i>
+                                        <label for="messaage" data-error="wrong" data-success="right" for="form8"></label>
+                                        <textarea type="text" id="message" class="md-textarea form-control" rows="4"
+                                            placeholder="Your message"></textarea>
+                                    </div>
+
+                                     <div class="md-form mb-5">
+                                        <div data-netlify-recaptcha="true"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            
-                <div class="modal-footer d-flex justify-content-center">
-                    <button class="btn btn-unique">Send Message<i class="fas fa-paper-plane-o ml-1"></i></button>
+                
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button type="submit" class="btn btn-unique">Send Message<i class="fas fa-paper-plane-o ml-1"></i></button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </form>
+
     
 
     <!-- contact us ends here -->
