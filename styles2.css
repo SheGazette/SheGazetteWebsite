@@ -202,7 +202,7 @@ div > .modal-content {
     left: 18%;
     top: 1%;
     transform: translate(-50%, -50%);
-  }
+}
 .close:not(:disabled):not(.disabled) {
     cursor: pointer;
 }
@@ -333,6 +333,7 @@ div.md-form.mb-5{
     margin: 0 0 20px 0px!important;
 }
 input[placeholder], [placeholder], *[placeholder] {
+    /* opacity: 50; */
     color:white !important;
 }
 .container4{
@@ -408,6 +409,12 @@ button.btn.btn-unique.contactUs-btn{
     /* Contribution ends here */
     
 	/* Contact us */
+    div.modal-content{
+        width: 700px;
+    }
+    .container4{
+        max-width: 700px;
+    }
 	.col-2 img{
 		display: none;
 	}
@@ -450,6 +457,23 @@ button.btn.btn-unique.contactUs-btn{
         margin: 25px;
     }
     /* Contribution ends here */
+    /* Contact Us */
+    div.modal-content{
+        width: 600px;
+    }
+    .col-2 img{
+		display: none;
+	}
+	.col-2{
+		flex-basis: 100%;
+	}
+    .modal-dialog {
+        position: absolute;
+        left: 12%;
+        top: 1%;
+        transform: translate(-50%, -50%);
+    }
+    /* Contact Us ends here */
 }
 
 /*phone*/
@@ -506,4 +530,51 @@ button.btn.btn-unique.contactUs-btn{
         display: none;
     }
     /* Footer ends here */
+    /* Contribution */
+    .contribution{
+        margin: auto;
+        width: 300px;
+    }
+    div.modal-content{
+        width: 300px;
+    }
+    .col-2 img{
+		display: none;
+	}
+	.col-2{
+		flex-basis: 100%;
+	}
+    .contribution .row{
+        padding: 30px;
+    }
+    .contribution .col-3{
+        flex-basis: 100%;
+        margin: 25px;
+    }
+    .contactUs-p{
+        padding: 0 10px;
+        font-size: 10px;
+        color: #123c69;
+    }
+    .w-100{
+        font-size: 30px!important;
+    }
+    div.modal-body.mx-3{
+        padding: 0px!important;
+        margin: 0px!important;
+    }
+    button.close {
+        font-size: 20px;
+        padding: 0 20px!important;
+    }
+    div.md-form.mb-5.robot{
+        padding: 10px;
+    }
+    .modal-dialog {
+        position: absolute;
+        left: auto;
+        top: 1%;
+        transform: translate(-50%, -50%);
+    }
+    /* Contribution ends here */
 }
