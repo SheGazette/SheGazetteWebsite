@@ -326,6 +326,9 @@ h3.modal-title{
 div.md-form.mb-5{
     margin: 0 0 20px 0px!important;
 }
+input[placeholder], [placeholder], *[placeholder] {
+    color:white !important;
+}
 .container4{
 	align-items: center;
 	/* display: flex; */

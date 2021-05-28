@@ -454,6 +454,7 @@ div.container3{
 div > .modal-content {
 	border-radius: 10px;
 } */
+
 .close:not(:disabled):not(.disabled) {
     cursor: pointer;
 }
@@ -580,6 +581,10 @@ h3.modal-title{
   ::-ms-input-placeholder { /* Microsoft Edge */
     color: white!important;
   }
+  
+input[placeholder], [placeholder], *[placeholder] {
+    color:white !important;
+}
 div.md-form.mb-5{
     margin: 0 0 20px 0px!important;
 }
@@ -618,6 +623,7 @@ btn.btn-unique.contactUs-btn{
 .contactUs-p{
 	padding: 0 20px;
 }
+
 /*contact us ends here*/
 
 
