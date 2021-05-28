@@ -197,6 +197,12 @@ div.container3{
 div > .modal-content {
 	border-radius: 10px;
 } */
+.modal-dialog {
+    position: absolute;
+    left: 18%;
+    top: 1%;
+    transform: translate(-50%, -50%);
+  }
 .close:not(:disabled):not(.disabled) {
     cursor: pointer;
 }
