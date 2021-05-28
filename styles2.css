@@ -320,15 +320,15 @@ h3.modal-title{
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: white!important;
     opacity: 1; /* Firefox */
-  }
-  
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color:white!important;
-  }
-  
-  ::-ms-input-placeholder { /* Microsoft Edge */
-    color: white!important;
-  }
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+color:white!important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+color: white!important;
+}
 div.md-form.mb-5{
     margin: 0 0 20px 0px!important;
 }
@@ -534,15 +534,6 @@ button.btn.btn-unique.contactUs-btn{
     .contribution{
         margin: auto;
         width: 300px;
-    }
-    div.modal-content{
-        width: 300px;
-    }
-    .col-2 img{
-		display: none;
-	}
-	.col-2{
-		flex-basis: 100%;
 	}
     .contribution .row{
         padding: 30px;
@@ -551,6 +542,17 @@ button.btn.btn-unique.contactUs-btn{
         flex-basis: 100%;
         margin: 25px;
     }
+	/* Contribution ends here */
+	/* Contact us starts here */
+	div.modal-content{
+        width: auto;
+    }
+    .col-2 img{
+		display: none;
+	}
+	.col-2{
+		flex-basis: 100%;
+	}
     .contactUs-p{
         padding: 0 10px;
         font-size: 10px;
@@ -576,5 +578,5 @@ button.btn.btn-unique.contactUs-btn{
         top: 1%;
         transform: translate(-50%, -50%);
     }
-    /* Contribution ends here */
+    /* Contact us ends here */
 }

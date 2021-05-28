@@ -621,7 +621,7 @@ div.md-form.mb-5{
     padding: 20px;
 }
 
-btn.btn-unique.contactUs-btn{
+button.btn.btn-unique.contactUs-btn{
 	margin-top: 0;
 	margin-bottom: 5px;
 }
@@ -829,13 +829,9 @@ btn.btn-unique.contactUs-btn{
 		display: none;
 	}
 	/* Footer ends here */
-	/* Contribution */
-    .contribution{
-        margin: auto;
-        width: 300px;
-    }
-    div.modal-content{
-        width: 300px;
+	/* Contact us starts here */
+	div.modal-content{
+        width: auto;
     }
     .col-2 img{
 		display: none;
@@ -843,13 +839,6 @@ btn.btn-unique.contactUs-btn{
 	.col-2{
 		flex-basis: 100%;
 	}
-    .contribution .row{
-        padding: 30px;
-    }
-    .contribution .col-3{
-        flex-basis: 100%;
-        margin: 25px;
-    }
     .contactUs-p{
         padding: 0 10px;
         font-size: 10px;
@@ -875,5 +864,5 @@ btn.btn-unique.contactUs-btn{
         top: 1%;
         transform: translate(-50%, -50%);
     }
-    /* Contribution ends here */
+    /* Contact us ends here */
 }
