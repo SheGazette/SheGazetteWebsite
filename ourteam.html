@@ -176,76 +176,85 @@
     <!-- Footer ends here -->
 
     <!-- contact us -->
+ <!-- contact us -->
 
-    <form name ="contact" method="POST" data-netlify="true">
-        <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header text-center">
-                        <h3 class="modal-title w-100">Contact Us</h3>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
+ 
+    <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h3 class="modal-title w-100">Contact Us</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
 
-                    <div class="container4">
-                        <div class="rowT2">
-                            <div class="col-2">
-                                <!-- <div class="modal-body mx-3"> -->
-                                    <div>
-                                        <img src="images/z3-1.1contactUs.svg" width="400px">
-                                    </div>
-                                <!-- </div> -->
-                            </div>
-
-                            <div class="col-2">
-                                <div class="modal-body mx-3">
-                                    <div class="md-form mb-5">
-                                        <label data-error="wrong" data-success="right" for="name"></label>
-                                        <i class="fas fa-user prefix grey-text"></i>
-                                        <input type="text" id="name" class="form-control validate" placeholder="Your Name" value="contact">  
-                                    </div>
-
-                                    <div class="md-form mb-5">
-                                        <i class="fas fa-envelope prefix grey-text"></i>
-                                        <label data-error="wrong" data-success="right" for="email"></label>
-                                        <input type="email" id="email" class="form-control validate" placeholder="Your Email" value="contact">  
-                                    </div>
-
-                                    <!-- <div class="md-form mb-5">
-                                        <i class="fas fa-tag prefix grey-text"></i>
-                                        <input type="text" id="form32" class="form-control validate" placeholder="Subject">
-                                        <label data-error="wrong" data-success="right" for="form32"></label>
-                                    </div> -->
-
-                                    <div class="md-form">
-                                        <i class="fas fa-pencil prefix grey-text"></i>
-                                        <label for="messaage" data-error="wrong" data-success="right" for="form8"></label>
-                                        <textarea type="text" id="message" class="md-textarea form-control" rows="4"
-                                            placeholder="Your message" value="contact"></textarea>
-                                    </div>
-
-                                     <!-- <div class="md-form mb-5 robot">
-                                        <div data-netlify-recaptcha="true"></div>
-                                    </div> -->
+                <div class="container4">
+                    <div class="rowT2">
+                        <div class="col-2">
+                            <!-- <div class="modal-body mx-3"> -->
+                                <div>
+                                    <img src="images/z3-1.1contactUs.svg" width="400px">
                                 </div>
+                            <!-- </div> -->
+                        </div>
+
+                        <div class="col-2">
+                            <div class="modal-body mx-3">
+                            <form action="POST" data-netlify="true">
+                                <div class="md-form mb-5">
+                                    <!-- <label data-error="wrong" data-success="right" for="name"></label> -->
+                                    <!-- <i class="fas fa-user prefix grey-text"></i> -->
+                                    <input type="text" id="name" name="name" class="form-control validate" placeholder="Your Name">  
+                                </div>
+
+                                <div class="md-form mb-5">
+                                    <!-- <i class="fas fa-envelope prefix grey-text"></i> -->
+                                    <!-- <label data-error="wrong" data-success="right" for="email"></label> -->
+                                    <input type="email" id="email" name="email" class="form-control validate" placeholder="Your Email">  
+                                </div>
+
+                                <!-- <div class="md-form mb-5">
+                                    <i class="fas fa-tag prefix grey-text"></i>
+                                    <input type="text" id="form32" class="form-control validate" placeholder="Subject">
+                                    <label data-error="wrong" data-success="right" for="form32"></label>
+                                </div> -->
+
+                                <div class="md-form">
+                                    <!-- <i class="fas fa-pencil prefix grey-text"></i> -->
+                                    <!-- <label for="messaage" data-error="wrong" data-success="right" for="form8"></label> -->
+                                    <textarea type="text" name="message" id="message" class="md-textarea form-control" rows="4"
+                                        placeholder="Your message"></textarea>
+                                </div>
+
+                                 <div class="md-form mb-5 robot">
+                                    <div data-netlify-recaptcha="true"></div>
+                                </div>
+                            
+
+                            <div class="modal-footer d-flex justify-content-center">
+                                <button input type="submit" class="btn btn-unique contactUs-btn">Send Message<i class="fas fa-paper-plane-o ml-1"></i></button>
                             </div>
                         </div>
+                        </div>
+                    </form>
                     </div>
-                
-                    <div class="modal-footer d-flex justify-content-center">
-                        <button type="submit" class="btn btn-unique contactUs-btn">Send Message<i class="fas fa-paper-plane-o ml-1"></i></button>
-                    </div>
-
-                    <p class="contactUs-p">
-                        We're committed to your privacy. By submitting this form, She Gazette will use the information you provide to
-                        us to contact you about our relevant content and services.
-                    </p>
                 </div>
+            
+                
+
+                <p class="contactUs-p">
+                    We're committed to your privacy. By submitting this form, She Gazette will use the information you provide to
+                    us to contact you about our relevant content and services.
+                </p>
             </div>
         </div>
-    </form>
+    </div>
+</form>
+
+<!-- contact us ends here -->
+    
 
     <!-- contact us ends here -->
 
