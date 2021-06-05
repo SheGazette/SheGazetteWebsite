@@ -72,7 +72,8 @@ p{
 }
 .container0 {
 	max-width: 1300px;
-	margin: auto;
+	margin: 0px auto;
+	height: fit-content;
 	padding-left: 50px;
 	padding-right: 0px;
 }
@@ -86,6 +87,9 @@ p{
     /* margin-top: 200px; */
 	flex-basis: 50%;
 	min-width: 300px;
+}
+.col-T2 img{
+	margin-bottom: 50px;
 }
 /* .col-2 img{ */
 	/* margin-top: 0px!important; */
