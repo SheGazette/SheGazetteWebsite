@@ -10,5 +10,4 @@ We endeavor to elevate the academic pursuits of ambitious students by guaranteei
 
 [<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Linkedin.svg" alt="Linkedin Logo" width="32">](https://www.linkedin.com/company/she-gazette/about/?viewAsMember=true) &nbsp; &nbsp; 
 [<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Twitter.svg" alt="Twitter Logo" width="32">](https://twitter.com/shegazette) &nbsp; &nbsp; 
-[<img src="https://cdn.svgporn.com/logos/github-icon.svg" alt="Github logo" width="34">](https://github.com/SheGazette) &nbsp; &nbsp;  
-[<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Gmail.svg" alt="Gmail logo" height="32">](mailto:shegazette@gmail.com)
+[<img src="https://cdn.svgporn.com/logos/github-icon.svg" alt="Github logo" width="34">](https://github.com/SheGazette) &nbsp; &nbsp;  [<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Gmail.svg" alt="Gmail logo" height="32">](mailto:shegazette@gmail.com)
