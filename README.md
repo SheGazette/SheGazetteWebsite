@@ -22,5 +22,8 @@ We endeavor to elevate the academic pursuits of ambitious students by guaranteei
 <td align="center"><a href="https://github.com/Ria700"><img src="https://user-images.githubusercontent.com/69964629/122727998-48e72500-d295-11eb-9f00-6db25a8270da.png" width="120px;" alt="Ria"  style="border-radius: 50px" /><br /><sub><b>Ria Monga</b></sub></a><br /><p>Co-Founder</p></td>
 
 </tr>
-</table>
+</table><br>
 
+## Contributing Guidlines
+<br>
+Please read the instructions to here to contribute to our initiative.
