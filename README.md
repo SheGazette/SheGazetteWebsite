@@ -28,4 +28,4 @@ We endeavor to elevate the academic pursuits of ambitious students by guaranteei
 <br>
 If you've ever wanted to contribute to open source, and a great cause, now is your chance!
 
-See the [contributing docs](https://github.com/SheGazette/SheGazetteWebsite/blob/Patch-1/Contribution.md) for more information
+See the [contributing docs](https://github.com/SheGazette/SheGazetteWebsite/blob/Patch-1/Contribution.md) for more information.
