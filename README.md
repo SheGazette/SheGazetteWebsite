@@ -5,7 +5,7 @@
 She Gazette is a community for female students 🙋‍♀️<br>
 We provide constant reminders about year-round scholarships, conferences, and opportunities. Our community helps students connect with past achievers to educate, equip and empower them📅<br>
 We endeavor to elevate the academic pursuits of ambitious students by guaranteeing awareness about opportunities and aim at bridging gender disparity in tech🎯 <br><br>
-Visit Our Website - https://shegazette.co/ <br><br><br>
+Visit Our Website - https://shegazette.github.io/SheGazetteWebsite/ <br><br><br>
 
 ## Connect with us 🙌
 <br>
